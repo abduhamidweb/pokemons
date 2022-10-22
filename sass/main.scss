@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import "./veribles";
+@import "./html";
+@import "./body";
+@import "./container";
+@import "./headre";
+// index sections and section start
+@import "./layout/index/section1";
+@import "./layout/index/section2";
+@import "./layout/index/section3";
+@import "./layout/index/section4";
+@import "./layout/index/section5";
+@import "./layout/index/section6";
+@import "./layout/index/section7";
+@import "./layout/index/section8";
+@import "./layout/index/section9";
+@import "./layout/index/section10";
+// Pagega qarab section qo'shib boriladi
+// index sections and section end
+@import "./footer";

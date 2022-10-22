@@ -1,0 +1,42 @@
+.bgs {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.74);
+}
+.adds {
+  display: block !important;
+}
+
+.ass {
+  overflow-y: hidden;
+}
+.modals {
+  position: relative;
+  box-shadow: 4px 4px 25px 14px rgba(34, 60, 80, 0.2);
+  width: 45%;
+  height: 300px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.modal-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.modal-text {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-size: 26px;
+  font-weight: 700;
+}

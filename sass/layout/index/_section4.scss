@@ -1,0 +1,22 @@
+.gives {
+  position: relative;
+  .line {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: gray;
+  }
+  .give {
+    .non {
+      font-size: 25px;
+    }
+    .text-dark {
+      font-weight: 600;
+    }
+    
+  }
+}

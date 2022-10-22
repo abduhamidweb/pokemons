@@ -1,0 +1,32 @@
+.form__row {
+  background: rgba(128, 128, 128, 0.195);
+}
+.forms {
+  h3 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.584);
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+}
+.twoo__wrapper .form-check {
+  padding: 10px 20px;
+  background: whitesmoke;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+
+  input {
+    margin-left: 0px !important;
+    padding: 20px;
+  }
+}
+.twoo__wrapper lable {
+  color: black;
+  font-size: 30px !important;
+}

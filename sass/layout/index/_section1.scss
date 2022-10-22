@@ -1,0 +1,154 @@
+main {
+  padding-top: 50px;
+  background: #ffd845;
+}
+.top__img {
+  padding-bottom: 70px;
+}
+.selector-wrap {
+  width: 85%;
+}
+.search-pokemone {
+  width: 85%;
+}
+.bg-light {
+  width: 85%;
+}
+.selecter-az {
+  width: 85%;
+}
+#card-items {
+  margin-top: 100px !important;
+  padding-bottom: 200px;
+}
+.card {
+  margin-top: 30px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  position: relative;
+  .line {
+    margin-top: 90px;
+    height: 2px;
+    width: 100%;
+    background: #000000;
+  }
+  .card-img {
+    margin-top: 30px;
+  }
+  .card-body {
+    padding: 30px;
+    position: relative;
+    left: -17px;
+
+    p {
+      margin-bottom: 0;
+    }
+    .card-title {
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #000000;
+      }
+    }
+    .card-category {
+      margin-top: 5px;
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #000000;
+      }
+    }
+    .card-info {
+      margin-top: 25px;
+    }
+    .card-info-kg {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+
+      color: #000000;
+    }
+    .card-info-age {
+      margin-left: 30px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+
+      color: #000000;
+    }
+  }
+}
+.forms {
+  position: sticky;
+  top: 0;
+  margin-bottom: 12px;
+
+  z-index: 11;
+  .bg-uchun {
+    background: #ffd845;
+  }
+}
+.card-like {
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+}
+.click-like {
+  position: sticky;
+  top: 0;
+  z-index: 1234;
+  padding-top: 14px;
+  padding-right: -90%;
+
+  i {
+    font-size: 35px;
+    margin-left: 90%;
+    cursor: pointer;
+  }
+}
+
+// sidebar
+
+.sidebar {
+  transition: all 0.5s;
+  top: 0;
+  position: fixed;
+  max-width: 400px;
+  width: 100%;
+  background: #ffeda9;
+  border: 2px solid #000000;
+  right: 0;
+  z-index: 12122;
+  margin-right: -100%;
+  overflow: hidden;
+  
+  .sidebar-back {
+    position: absolute;
+    top: 14px;
+    left: 63%;
+    font-size: 35px;
+    i{
+      cursor: pointer;
+    }
+  }
+}
+.block{
+  margin-right:0;
+}
+.sidebar-back{
+  position: sticky;
+  top: 3px;
+}
